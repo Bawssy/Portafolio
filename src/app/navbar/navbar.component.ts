@@ -137,9 +137,12 @@ export class NavbarComponent implements OnInit {
       },
       {
         label: 'Salir',
-        icon: 'pi pi-fw pi-power-off'
+        icon: 'pi pi-fw pi-power-off',
+        command(event) {
+          alert("Hola Dildudo")
+        }
       }
     ];
-console.log("Hola Tommy")
+    console.log("Hola Tommy")
   }
 }
